@@ -1,0 +1,15 @@
+.callButton {
+  background-color: rgba(239, 184, 16, 0.665);
+  height: 150px;
+  width: 700px;
+  border-radius: 50px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.containerButton{
+  margin-top: 10px;
+}

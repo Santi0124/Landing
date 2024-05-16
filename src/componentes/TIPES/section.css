@@ -1,0 +1,27 @@
+.section-container {
+    height: 850px;
+    width: 750px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #323232;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.video-container{
+    color: white;
+    height: 380px; 
+    width: 730px;
+    background-color: white; 
+    justify-content: center;
+    margin-left: 10px;
+}
+.container-phrase {
+    height: 200px;
+  }
+
