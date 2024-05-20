@@ -1,0 +1,10 @@
+/* viewLanding.css */
+.view-landing {
+    opacity: 0;
+    transition: opacity 2.2s ease; /* Agrega una transición de opacidad */
+  }
+  
+  .view-landing.show {
+    opacity: 2; /* Cuando la clase show está presente, cambia la opacidad a 1 */
+  }
+  

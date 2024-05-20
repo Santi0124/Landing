@@ -1,10 +1,10 @@
 import React from "react";
-import "../FIRSTPART/callButton.css"
+import "../FIRSTPART/callButton.css";
 
 const CallButton: React.FC = () => {
   const handleButtonClick = () => {
-    window.location.href = "https://lacasaecom.lpages.co/el-m%C3%A9todo/"
-  }
+    window.location.href = "https://lacasaecom.lpages.co/el-m%C3%A9todo/";
+  };
 
   return (
     <div className="containerButton">
@@ -15,7 +15,7 @@ const CallButton: React.FC = () => {
         AGENDAR LLAMADA
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default CallButton
+export default CallButton;

@@ -3,13 +3,25 @@
   height: 150px;
   width: 700px;
   border-radius: 50px;
-  font-size: 40px;
+  font-size: 2.5rem; /* Usar unidades relativas para el tamaño de fuente */
   color: white;
   cursor: pointer;
   border: none;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 0.625rem; /* Usar unidades relativas */
+  transition: background-color 0.9s ease, transform 0.3s ease; /* Incluir transición de transform */
+  outline: none; /* Eliminar el outline predeterminado */
 }
-.containerButton{
-  margin-top: 10px;
+
+.callButton:hover {
+  background-color: rgba(199, 154, 18, 0.665); 
+  transform: scale(1.05); /* Aumentar ligeramente el tamaño al pasar el ratón por encima */
+}
+
+.callButton:focus {
+  box-shadow: 0 0 0 4px rgba(239, 184, 16, 0.7); /* Añadir un enfoque visible */
+}
+
+.containerButton {
+  margin-top: 0.625rem; /* Usar unidades relativas */
 }

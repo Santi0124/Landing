@@ -10,15 +10,18 @@ const FirstPart: React.FC = () => {
     <div className="first-part-container">
       <TitleUniversity />
       <MotivationalPhrase 
-       phrase="Gana entre 2K/7K al mes siendo un Appointment setter con un trabajo e ingresos garantizados."
+       phrase="GANA ENTRE 2K/7K AL MES SIENDO UN APPOINTMENT SETTER CON UN TRABAJO E INGRESOS GARANTIZADOS."
        className="motivational-phrase" 
       />
       <VideoFran/>
       <CallButton />
       <MotivationalPhrase  
        phrase="Se diferente y escapa de la monotonía."
-       className="motivational-phrase" // Asigna la clase CSS aquí
+       className="motivational-phrase" 
       />
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 }

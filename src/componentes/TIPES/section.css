@@ -1,6 +1,6 @@
 .section-container {
     height: 850px;
-    width: 750px;
+    width: 825px;
     margin: 20px;
     padding: 20px;
     background-color: #323232;
@@ -9,18 +9,24 @@
 }
 
 .title {
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem; /* Utiliza unidades relativas para el tamaño de fuente */
+  color: #fff; /* Cambia el color del título para que sea más visible en el fondo oscuro */
+  margin-bottom: 20px; /* Aumenta el espacio inferior para separar el título del contenido */
 }
-.video-container{
-    color: white;
-    height: 380px; 
-    width: 730px;
-    background-color: white; 
+
+.video-container {
+    display: flex;
     justify-content: center;
-    margin-left: 10px;
-}
+    align-items: center;
+    margin: 25px 0; /* Margen opcional para separar el video del resto del contenido */
+  }
+  
+  .video {
+    height: 380px;
+    width: 780px;
+  }
 .container-phrase {
     height: 200px;
   }

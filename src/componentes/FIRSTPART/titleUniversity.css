@@ -4,4 +4,6 @@
     font-weight: bold; 
     font-family: 'Roboto', sans-serif;
     color: #b78806; 
+    position: sticky;
+    top: 0;
   }
