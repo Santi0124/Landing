@@ -10,13 +10,13 @@ const FirstPart: React.FC = () => {
     <div className="first-part-container">
       <TitleUniversity />
       <MotivationalPhrase 
-       phrase="GANA ENTRE 2K/7K AL MES SIENDO UN APPOINTMENT SETTER CON UN TRABAJO E INGRESOS GARANTIZADOS."
+       phrase="GANA ENTRE 2K/7K AL MES COMO APPOINTMENT SETTER CON UN TRABAJO E INGRESOS GARANTIZADOS."
        className="motivational-phrase" 
       />
       <VideoFran/>
       <CallButton />
       <MotivationalPhrase  
-       phrase="Se diferente y escapa de la monotonía."
+       phrase="Empieza a cambiar tu vida..."
        className="motivational-phrase" 
       />
       <br/>

@@ -18,13 +18,15 @@ const Section: React.FC<SectionProps> = ({ titulo, fraseMotivacional, segundaFra
       <div>
         <MotivationalPhrase phrase={fraseMotivacional} />
       </div>
-      <div className="video-container">
-        <video className="video" controls>
-          <source src={video || "ruta_del_video.mp4"} type="video/mp4" />
-          {/* Agrega más etiquetas source si tu video tiene diferentes formatos */}
-          Tu navegador no soporta la etiqueta de video.
-        </video>
-      </div>
+      {video && (
+        <div className="video-container">
+          <video className="video" controls>
+            <source src={video} type="video/mp4" />
+            {/* Agrega más etiquetas source si tu video tiene diferentes formatos */}
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+        </div>
+      )}
       <div className="container-phrase">
         <MotivationalPhrase phrase={segundaFrase} />
       </div>

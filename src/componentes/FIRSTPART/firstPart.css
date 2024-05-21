@@ -1,3 +1,9 @@
 .first-part-container {
   margin-top: 35px;
 }
+
+.motivational-phrase{
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
