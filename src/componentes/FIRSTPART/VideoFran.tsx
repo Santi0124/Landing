@@ -4,13 +4,18 @@ import "../FIRSTPART/videoFran.css";
 const VideoFran: React.FC = () => {
   return (
     <div>
-      <video className="videoPrincipal" controls>
-        <source src="ruta_del_video.mp4" type="video/mp4" />
-        {/* Agrega más etiquetas source si tu video tiene diferentes formatos */}
-        Tu navegador no soporta la etiqueta de video.
-      </video>
+      <iframe
+        className="videoPrincipal"
+        width="560"
+        height="315"
+        src=""
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
     </div>
   );
-};
+}
 
-export default VideoFran;
+export default VideoFran

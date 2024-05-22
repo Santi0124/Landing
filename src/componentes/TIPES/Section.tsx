@@ -18,15 +18,19 @@ const Section: React.FC<SectionProps> = ({ titulo, fraseMotivacional, segundaFra
       <div>
         <MotivationalPhrase phrase={fraseMotivacional} />
       </div>
-      {video && (
-        <div className="video-container">
-          <video className="video" controls>
-            <source src={video} type="video/mp4" />
-            {/* Agrega más etiquetas source si tu video tiene diferentes formatos */}
-            Tu navegador no soporta la etiqueta de video.
-          </video>
-        </div>
-      )}
+      <div>
+        {video && ( // Verifica si se proporciona una URL de video
+          <iframe
+            width="700"
+            height="400"
+            src={video} // Usa la URL del video proporcionada como src
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        )}
+      </div>
       <div className="container-phrase">
         <MotivationalPhrase phrase={segundaFrase} />
       </div>

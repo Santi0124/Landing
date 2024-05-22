@@ -1,11 +1,12 @@
 .section-container {
-    height: 850px;
-    width: 825px;
-    margin: 20px;
-    padding: 20px;
-    background-color: #323232;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: auto;
+  width: 825px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #323232;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Para asegurar que el texto sea visible en el fondo oscuro */
 }
 
 .title {
@@ -17,17 +18,18 @@
 }
 
 .video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px 0; /* Margen opcional para separar el video del resto del contenido */
-  }
-  
-  .video {
-    height: 380px;
-    width: 780px;
-  }
-.container-phrase {
-    height: 200px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0; /* Margen opcional para separar el video del resto del contenido */
+}
 
+.video {
+  width: 700px; /* Ajusta el ancho del video */
+  height: 400px; /* Ajusta la altura del video */
+}
+
+.container-phrase {
+  height: auto;
+  margin-top: 20px; /* Añade margen superior para separar la segunda frase del video */
+}
