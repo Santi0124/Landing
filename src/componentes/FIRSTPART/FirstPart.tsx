@@ -19,6 +19,9 @@ const FirstPart: React.FC = () => {
        phrase="Empieza a cambiar tu vida..."
        className="motivational-phrase" 
       />
+      <div className='logo'>
+
+      </div>
       <br/>
       <br/>
       <br/>

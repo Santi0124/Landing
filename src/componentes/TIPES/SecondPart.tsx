@@ -6,7 +6,7 @@ import MotivationalPhrase from "../FIRSTPART/MotivationalPhrase";
 
 const SecondPart: React.FC = () => {
   return (
-    <div>
+    <div className="secondPart">
       <Section
         titulo={"UNIVERSITY SETTER"}
         fraseMotivacional={"Tenemos la comunidad privada más completa sobre Appointment Setters en Europa y Latinoamérica. Contamos con más de 70 clases lectivas y acompañamiento 24/7 para que puedas resolver todas tus dudas día a día."}
@@ -29,7 +29,7 @@ const SecondPart: React.FC = () => {
       />
       <hr />
       <Section
-        titulo={"MINTSET Y HÁBITOS"}
+        titulo={"MINDSET Y HÁBITOS"}
         fraseMotivacional={"Hablaremos todas las semanas sobre hábitos y mindset para poder optimizar todas nuestras tareas y ser lo más efectivos posibles. Nos desarrollamos continuamente para nunca quedarnos estancados."}
         segundaFrase={"Daniela, 21 años, está trabajando desde donde quiere y cuando quiere, además de poder costear su vida y pagar su carrera, un cambio total."}
         video={"https://youtube.com/embed/6Ncwi7DevyI"}
@@ -45,16 +45,16 @@ const SecondPart: React.FC = () => {
       <CallButton />
       <hr />
       <Section
-        titulo={"Tutorias"}
-        fraseMotivacional={"Javier.    26 años."}
-        video={"https://youtube.com/embed/ruta_del_video_tutores.mp4"}
-        segundaFrase={"Lo ha conseguido gracias al curso"}
+        titulo={"RESULTADOS"}
+        fraseMotivacional={"Alfredo.    25 años."}
+        video={"https://youtube.com/embed/dg02tvuQmIQ"}
+        segundaFrase={"Alfredo es uno más de nuestro equipo que empezó así."}
       />
       <hr />
       <Section
         titulo={"Tutorias"}
         fraseMotivacional={"Javier.    26 años."}
-        video={"https://youtube.com/embed/ruta_del_video_tutores.mp4"}
+        video={"https://youtube.com/embed/jDqEva9ln44"}
         segundaFrase={"Lo ha conseguido gracias al curso"}
       />
       <CallButton />

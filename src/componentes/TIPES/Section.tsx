@@ -15,21 +15,19 @@ const Section: React.FC<SectionProps> = ({ titulo, fraseMotivacional, segundaFra
       <div className="title">
         <h4>{titulo}</h4>
       </div>
-      <div>
+      <div className="parrafo">
         <MotivationalPhrase phrase={fraseMotivacional} />
       </div>
-      <div>
-        {video && ( // Verifica si se proporciona una URL de video
+      <div className="video">
           <iframe
-            width="700"
-            height="400"
+            width="800"
+            height="450"
             src={video} // Usa la URL del video proporcionada como src
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
-        )}
       </div>
       <div className="container-phrase">
         <MotivationalPhrase phrase={segundaFrase} />

@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 interface MotivationalPhraseProps {
   phrase: string;
   className?: string

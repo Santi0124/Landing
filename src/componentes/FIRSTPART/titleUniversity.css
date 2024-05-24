@@ -1,9 +1,11 @@
 
 .h2 {
-    display: inline-block;
-    font-weight: bold; 
-    font-family: 'Roboto', sans-serif;
-    color: #b78806; 
-    position: sticky;
-    top: 0;
-  }
+  display: inline-block;
+  font-family: 'Dancing Script', cursive;
+  color: #e2aa11; 
+  position: sticky;
+  top: 0;
+  font-size: 90px;
+  font-weight: 300; /* Utiliza una versión más delgada de Roboto */
+  letter-spacing: 2px; /* Ajusta el espaciado entre letras para un efecto más alargado */
+}

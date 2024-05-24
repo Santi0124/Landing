@@ -8,7 +8,7 @@ const VideoFran: React.FC = () => {
         className="videoPrincipal"
         width="560"
         height="315"
-        src=""
+        src="https://youtube.com/embed/6Ncwi7DevyI"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
